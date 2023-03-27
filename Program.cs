@@ -29,6 +29,9 @@ class Program
         user.AddVideo(video8);
         user.AddVideo(video9);
 
+        video.IncreasePlayCount(50);
+        video.PrintVideoDetails();
+
         user.PrintAllVideoPlayCount();
     }
 }
